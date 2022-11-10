@@ -50,6 +50,9 @@ class Calculator:
 
 class CaloriesCalculator(Calculator):
     def get_calories_remained(self):
+        # Названия переменных должна указывать на её функцию, чтобы было
+        # проще разобраться в коде, нельзя использовать однобуквенные
+        # переменные
         x = self.limit - self.get_today_stats()
         if x > 0:
             # Не используем бэкслеш для переноса строк
