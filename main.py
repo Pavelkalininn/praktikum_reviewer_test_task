@@ -114,4 +114,4 @@ class CashCalculator(Calculator):
     def get_week_stats(self):
         super().get_week_stats()
 
-# Во всей работе лучше использовать типизацию и Docstrings
+# Во всей работе лучше использовать type hints и Docstrings
